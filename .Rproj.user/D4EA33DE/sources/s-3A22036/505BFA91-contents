@@ -102,10 +102,21 @@ num2Vector<-c(5L,6L,7L)
 char1<-"你好"
 char2<-'你好'
 ```
+```{r}
+dialogue <- c('小明說："明天不用上課。"',
+               '小花說："真的嗎？"')
+
+cat(dialogue, sep="\n")
+```
 
 
-
-
+```{R}
+library(httr)
+library(dplyr)
+GET("https://api.github.com/repos/tpemartin/108-2-56-inclass-practice/commits") %>%
+  content() %>%
+  View()
+```
 
 
 
