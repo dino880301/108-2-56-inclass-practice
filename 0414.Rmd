@@ -269,4 +269,39 @@ dance[[1]]$title
 dance[[2]]$title
 dance[[3]]$title 
 ```
+```{r}
+library(purrr)
+map(dance,~.x$title) -> dance_title
+```
+
+```{r}
+dance[[1]]$showInfo
+length(dance[[1]]$showInfo)
+
+dance[[2]]$showInfo
+length(dance[[1]]$showInfo)
+```
+```{r}
+length(dance[[1]]$showInfo)
+length(dance[[2]]$showInfo)
+# :
+length(dance[[34]]$showInfo)
+```
+
+```{r}
+map(dance,~length(.x$showInfo)) -> dance_showInfoLength
+```
+```{r}
+jsonlite::fromJSON("https://data.ntpc.gov.tw/od/data/api/67BB3C2B-E7D1-43A7-B872-61B2F082E11B?$format=json", simplifyDataFrame = F) ->
+  busRoutes
+```
+
+```{r}
+a <- c("1","b","TRUE")
+a
+a[[2]] <- "c" # 元素存在: 替換
+a[[4]] <- "7" # 元素不存在： 增加
+a[c(5,6)] <- c("J", "K")
+a
+```
 
