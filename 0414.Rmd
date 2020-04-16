@@ -202,4 +202,16 @@ majors <- c("經濟學系","經濟學系","社會學系","社工系","經濟學�
 names <- c("小英", "小美", "大雄","阿華", "阿尼")
 gender <- c("F","F","M","F","M")
 ```
+```{r}
+install.packages(c("googlesheets4"))
+```
+
+```{r}
+numVector <- c(2,3,6,-1,4,2,6)
+select1 <- numVector[c(1,4)]; select1
+select2 <- select1[[1]]; select2
+
+# 相當於
+numVector[c(1,4)][[1]]
+```
 
