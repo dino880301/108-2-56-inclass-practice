@@ -591,6 +591,9 @@ map(example, ~.x[pick_小新]) ->
 data_selected
 ```
 
+```{r}
+jsonlite::fromJSON("https://www.dropbox.com/s/6252gbdnv9owljm/dance.json?dl=1", simplifyDataFrame = F) -> dance
+```
 
 
 
@@ -601,5 +604,17 @@ map(example, ~.x[pick_小新]) ->
   data_selected 
   
 data_selected
+```
+```{r}
+# 第一個dance表演名稱
+dance[[1]]$title
+# 第二個dance表演名稱
+dance[[2]]$title
+```
+```{r}
+map(dance, ~.x$title) ->
+  list_titles
+
+View(list_titles)
 ```
 
