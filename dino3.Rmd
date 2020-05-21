@@ -617,4 +617,35 @@ map(dance, ~.x$title) ->
 
 View(list_titles)
 ```
+```{r}
+# 記載第一個表演的所有場次訊息
+dance[[1]]$showInfo
+str(dance[[1]]$showInfo)
+# 計算第一個表演有幾個場次
+length(dance[[1]]$showInfo)
+# 計算第二個表演有幾個場次
+length(dance[[2]]$showInfo)
+```
+```{r}
+map(dance,~length(.x$showInfo)) ->
+  list_numberOfShows 
+  
+View(list_numberOfShows)
+```
+
+```{r}
+str(dance[[4]]$showInfo)
+```
+```{r}
+# 這個表演第1個場次的訊息
+dance[[4]]$showInfo[[1]]$time
+# 這個表演第2個場次的訊息
+dance[[4]]$showInfo[[2]]$time
+```
+
+```{r}
+map(dance[[4]]$showInfo, ~ .x$time) ->
+  
+list_showTimes_dance4
+```
 
