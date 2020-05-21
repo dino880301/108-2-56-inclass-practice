@@ -1,0 +1,4 @@
+"0","map(example, ~.x[pick_小新]) -> "
+"0","  data_selected "
+"2","錯誤: `.x` must be a vector, not a function
+"

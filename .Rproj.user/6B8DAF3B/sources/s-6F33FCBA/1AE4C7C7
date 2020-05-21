@@ -1,25 +1,25 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1586104289396.000,
+    "created" : 1590073424763.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "919906366",
-    "id" : "F9BBAE5C",
-    "lastKnownWriteTime" : 1589544337,
-    "last_content_update" : 1589544337199,
+    "hash" : "2905878219",
+    "id" : "1AE4C7C7",
+    "lastKnownWriteTime" : 1590073444,
+    "last_content_update" : 1590073444130,
     "path" : "~/GitHub/108-2-56-inclass-practice/dino2.Rmd",
     "project_path" : "dino2.Rmd",
     "properties" : {
-        "cursorPosition" : "560,32",
-        "last_setup_crc32" : "CF3AADF0bb338d19",
-        "scrollLine" : "550"
+        "cursorPosition" : "590,13",
+        "last_setup_crc32" : "6F33FCBAbb338d19",
+        "scrollLine" : "581"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 2,
+    "relative_order" : 1,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"

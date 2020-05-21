@@ -565,3 +565,30 @@ gender <- c("F","F","M","F","M")
 levels(covid19$縣市)
 levels(covid19$性別)
 levels(covid19$是否為境外移入)
+```
+
+
+```{r}
+library(purrr)
+```
+```{r}
+pick_小新 <- example$name == "小新"
+data_selected <- 
+  list(
+    name=example$name[pick_小新],
+    weight=example$weight[pick_小新],
+    height=example$height[pick_小新],
+    hobby=example$hobby[pick_小新],
+    residence=example$residence[pick_小新],
+    allowance=example$allowance[pick_小新],
+    bloodType=example$bloodType[pick_小新]
+  )
+```
+
+```{r}
+map(example, ~.x[pick_小新]) -> 
+  data_selected 
+  
+data_selected
+```
+
