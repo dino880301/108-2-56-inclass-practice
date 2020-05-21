@@ -649,3 +649,16 @@ map(dance[[4]]$showInfo, ~ .x$time) ->
 list_showTimes_dance4
 ```
 
+```{r}
+jsonlite::fromJSON("https://data.ntpc.gov.tw/od/data/api/67BB3C2B-E7D1-43A7-B872-61B2F082E11B?$format=json", simplifyDataFrame = F) ->
+  busRoutes
+```
+```{r}
+jsonlite::fromJSON("https://opendata.cwb.gov.tw/fileapi/v1/opendataapi/F-C0032-001?Authorization=rdec-key-123-45678-011121314&format=JSON") ->
+  weather_next36hours
+```
+
+```{r}
+weather_next36hours$cwbopendata$dataset$location$weatherElement[[1]]$elementName 
+```
+
