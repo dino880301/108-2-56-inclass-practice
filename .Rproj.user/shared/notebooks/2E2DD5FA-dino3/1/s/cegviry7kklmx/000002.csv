@@ -1,0 +1,3 @@
+"0","dateInput <- today()"
+"2","Error in today() : 沒有這個函數 ""today""
+"
