@@ -1,0 +1,20 @@
+"0","library(stringr)"
+"0","install.packages(""sjPlot"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","Installing package into ．C:/Users/test/Documents/R/win-library/3.6・
+(as ．lib・ is unspecified)
+"
+"2","also installing the dependencies ．ps・, ．processx・, ．callr・, ．prettyunits・, ．desc・, ．pkgbuild・, ．rprojroot・, ．rstudioapi・, ．pkgload・, ．praise・, ．rlang・, ．testthat・, ．colorspace・, ．backports・, ．reshape2・, ．estimability・, ．numDeriv・, ．plyr・, ．xtable・, ．tidyselect・, ．plogr・, ．gtable・, ．isoband・, ．farver・, ．labeling・, ．munsell・, ．RColorBrewer・, ．viridisLite・, ．broom・, ．emmeans・, ．modelr・, ．vctrs・, ．bayestestR・, ．dplyr・, ．effectsize・, ．ggeffects・, ．ggplot2・, ．insight・, ．parameters・, ．performance・, ．scales・, ．sjlabelled・, ．sjmisc・, ．sjstats・, ．tidyr・
+
+"
+"1","
+"
+"1",""
+"1","  There is a binary version available but the source version
+  is later"
+"1",""
+"1",":
+"
