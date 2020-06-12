@@ -5,16 +5,16 @@
     "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2930877645",
+    "hash" : "0",
     "id" : "1AE4C7C7",
     "lastKnownWriteTime" : 1591961487,
-    "last_content_update" : 1591965451329,
+    "last_content_update" : 1591967027985,
     "path" : "~/GitHub/108-2-56-inclass-practice/dino3.Rmd",
     "project_path" : "dino3.Rmd",
     "properties" : {
-        "cursorPosition" : "1016,1",
+        "cursorPosition" : "1091,35",
         "last_setup_crc32" : "EACD3C67bb338d19",
-        "scrollLine" : "994"
+        "scrollLine" : "1068"
     },
     "read_only" : false,
     "read_only_alternatives" : [
