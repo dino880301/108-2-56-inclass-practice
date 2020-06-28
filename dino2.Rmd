@@ -451,6 +451,46 @@ addresses <- c(
 ```
 
 ```{r}
+switch(實現的conditionExpression,
+       "conditionExpression1"= {    },
+       "conditionExpression2"= {    },
+       :
+       :
+       "conditionExpressionN"= {    },
+       {    })
+```
+```{r}
+n<- 540
+
+conditionExpression_outcome=
+  ifelse(n %% 2==0, "even", "odd") 
+
+switch(
+  conditionExpression_outcome,
+  "even"={fvalue <- n/2}, # 偶數
+  "odd"=fvalue <- -(n+1)/2, # 奇數；只有一行指令可省略{}
+  warning("n要整數喔")  
+)
+
+print(fvalue)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
 char2 <- c("蔡英文","習近平","Donald Trump","蔡頭") 
 factor2 <- factor(char2)
 levels(factor2)
@@ -616,5 +656,16 @@ map(dance, ~.x$title) ->
   list_titles
 
 View(list_titles)
+```
+```{r}
+grades <- c(52, 77, 59, 88, 90)
+
+ifelse(grades >= 60, "及格", "不及格")
+```
+```{r}
+miniFun <- function(){
+  lubridate::now()
+}
+miniFun()
 ```
 
